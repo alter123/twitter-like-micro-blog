@@ -27,8 +27,8 @@ $ cd todo-wallpaper-cli
 $ virtualenv venv
 $ . venv/bin/activate
 $ pip install requirements.txt
+$ python manage.py makemigrations
 $ python manage.py migrate
 $ python manage.py createsuperuser
-$ python manage.py makemigrations
 $ python manage.py runserver
 ```
